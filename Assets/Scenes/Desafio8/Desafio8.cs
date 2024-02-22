@@ -26,7 +26,7 @@ public class Desafio8 : MonoBehaviour
 
             whoWins.text = oddOrEven();
         }
-        catch (FormatException e)
+        catch (FormatException)
         {
             whoWins.text = "Por favor insira um número válido";
         }
